@@ -1,0 +1,15 @@
+{
+  "name": "githubsearch-server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "restify": "2.6.0",
+	"unirest": "*",
+	"cheerio": "*",
+	"htmlparser": "*",
+	"soupselect": "*"
+  }
+}
